@@ -192,3 +192,17 @@ const withMonsters = ztmMonstersList.with(1, 'Gost');
 console.log(ztmMonstersList) 
 console.log(withMonsters)
 
+//Array.from()
+
+	Array.from(arrayLike)
+	Array.from(arrayLike, mapFn)
+	Array.from(arrayLike, mapFn, thisArg)
+
+	//the radix (pl.: radices) or base is the number of unique digits, including the digit zero, used to represent numbers
+	Number(1400).toString(2) //gives back the numbered number in the base radix defined Can be 2-36
+	
+	let fn = (x,i)=>(i+10).toString(36)
+	Array.from({ length: 26 }, fn) //gives back English alphabet as a string
+
+
+
